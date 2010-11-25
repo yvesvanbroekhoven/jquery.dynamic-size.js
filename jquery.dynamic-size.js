@@ -53,7 +53,7 @@
     } else if (width < options.minWidth) {
       width = options.minWidth;
     }
-    console.log(width);
+    
     _this.width(width);
     
     if (!_this.is(':visible')) {

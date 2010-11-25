@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--<meta http-equiv="Content-Language" content="nl-BE"> Only use if site is in non US english -->
+  <!--<meta name="Language" content="english"> Only use if site is in non US english -->
+  <meta charset="utf-8" />
+  <meta name="description" content="">
+
+  <title>Dynamic resize elements compared to the viewport</title>
+  
+  <style type="text/css" media="screen">
+    a img { border: none; }
+  </style>
+  <script src="http://www.google.com/jsapi?key="></script>
+  <script type="text/javascript">
+    google.load("jquery", "1.4");
+  </script>
+  <script src="jquery.dynamic-size.js"></script>
+  <script>
+    $(function(){
+      $('#patrick').dynamicSize({
+        minWidth: 150
+      });
+    });
+  </script>
+
+</head>
+<body>
+  <a href="mailto:"><img id="patrick" src="http://patspooren.be/site/ndxz-studio/site/img/patrick.png" alt=""></a>
+</body>
+</html>
